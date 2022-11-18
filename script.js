@@ -27,3 +27,15 @@ function ret() {
 const anotherNum = ret();
 console.log(anotherNum);
 
+const logger = function() {
+    console.log('Hi');
+};
+
+logger();
+
+const callc = (a, b) => a + b;
+
+const calllc = (a, b) => {
+    console.log('1');
+    return a + b;
+}
